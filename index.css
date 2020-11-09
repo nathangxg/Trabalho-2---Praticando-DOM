@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#format-text{
+    font-size: 22px;
+}
+
+h2 {
+    color: #b66a00;
+    font-size: 40px;
+}
+
+.texto {
+    position: absolute;
+    top: 330px;
+    margin-left: 550px;
+}
+
+#fundo {
+    height: 950px;
+    width: 100%;
+}
+
+button {
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.result {
+    font-size: 30px;
+}
+
+.ok {
+    font-weight: 1000;
+    display: contents;
+    width: 600px;
+    color: rgb(0, 156, 26);
+}
+
+.advertencia {
+    font-weight: 1000;
+    font-size: 50px;
+    display: contents;
+    width: 600px;
+    color: rgb(255, 174, 0);
+}
+
+.media {
+    font-weight: 1000;
+    display: contents;
+    width: 600px;
+    color: rgb(255, 136, 0);
+}
+
+.grave {
+    font-weight: 1000;
+    display: contents;
+    width: 600px;
+    color: rgb(255, 0, 0);
+}
+
+.gravissima {
+    font-weight: 1000;
+    display: contents;
+    width: 600px;
+    color: black;
+}

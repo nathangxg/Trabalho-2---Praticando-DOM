@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="index.css" type="text/css" charset="utf-8">
+    <link rel="icon" href="img/icon.png" type="image/png"/>
+
+    <title>Praticando DOM</title>
+  </head>
+    <body>
+        <img src="img/infracoes.png" id="fundo">
+
+        <div class="texto">
+
+            <h2>Verifique aqui as penalidades por excesso de velocidade</h2>
+
+            <h1 id="format-text">Velocidade máxima permitida pela via:</h1>
+            <input type="text" id="maxima"/> 
+
+            <br>
+
+            <h1 id="format-text">Velocidade do veículo:</h1>
+            <input type="text" id="velocidade"/> 
+            
+            <br>
+            
+            <button id="ver">Verificar</button>
+
+            <br>
+
+            <div id="resultado"></div>
+            
+            <br>
+            <br>
+            <br>
+
+            <div id="driver">
+                <label id="format-text">Foi você que estava dirigindo nesse momento?<br> Se sim preencha os campos abaixo:</label>
+
+                <br>
+                <br>
+                
+                <label id="format-text">Nome do condutor:
+                <input type="text"/></label>
+                    
+                <br>
+
+                <label id="format-text">Número da CNH do condutor:
+                <input type="number"/></label>
+                
+                <br>
+
+                <button id="enviar">Enviar</button>
+            </div>
+        </div>
+
+        <script src="penalidades.js"> </script>
+    </body>
+</html>
